@@ -12,7 +12,7 @@ The application calculates the vehicle's usable driving range based on its batte
 
 Charging stations within this range are evaluated using their estimated travel time and predicted availability at the expected arrival time. Existing reservations are also taken into account before the stations are ranked and presented to the user.
 
-Users can reserve charging slots in 15-minute intervals. The predicted availability is adjusted according to existing reservations, and a reservation is accepted only if the adjusted availability remains above 50% throughout the selected period.
+Users can reserve charging slots in 15 minute intervals. The predicted availability is adjusted according to existing reservations, and a reservation is accepted only if the adjusted availability remains above 50% throughout the selected period.
 
 ## Technologies
 
@@ -37,7 +37,7 @@ Users can reserve charging slots in 15-minute intervals. The predicted availabil
 
 ## Model Performance
 
-The LightGBM model predicts charging station availability using historical station usage and time-based features.
+The LightGBM model predicts charging station availability using historical station usage and time based features.
 
 | Metric | Result |
 | --- | ---: |
