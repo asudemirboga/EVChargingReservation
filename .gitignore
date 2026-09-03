@@ -1,0 +1,26 @@
+//
+//  .gitignore
+//  EVChargingReservation
+//
+//  Created by Asude Beyza DEMİRBOĞA on 3.05.2025.
+//
+
+.DS_Store
+venv/
+.venv/
+
+# API keys / credentials
+EVChargingReservation/Secrets.plist
+EVChargingReservation/GoogleService-Info.plist
+
+# Xcode-specific metadata
+*.xcuserdata
+*.xcuserstate
+xcuserdata/
+DerivedData/
+build/
+
+# CocoaPods
+Pods/
+
+
