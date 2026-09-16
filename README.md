@@ -54,9 +54,7 @@ This repository contains the source code of the project. The original Firebase d
 
 ## Limitations
 
-This project is an academic prototype rather than a production charging platform.
-
-The prediction model was trained using historical charging station data, and the ML backend uses a lightweight TCP server intended for development and testing. Reservation validation and creation are separate operations, so simultaneous reservation requests are not protected by an atomic transaction.
+This project is an academic prototype rather than a production charging platform. The prediction model is based on historical charging station data and therefore does not represent a real time production prediction system. The backend was designed for development and testing purposes.
 
 ## Project Report
 
