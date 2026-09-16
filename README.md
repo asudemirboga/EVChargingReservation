@@ -17,18 +17,21 @@ Users can reserve charging slots in 15 minute intervals. The predicted availabil
 ## Technologies
 
 **iOS**
+
 - Swift
 - SwiftUI
 - MVVM
 - CoreLocation
 
 **Services**
+
 - Firebase Authentication
 - Cloud Firestore
 - Google Maps SDK
 - Google Directions API
 
 **Machine Learning & Backend**
+
 - Python
 - LightGBM
 - pandas
@@ -40,36 +43,14 @@ Users can reserve charging slots in 15 minute intervals. The predicted availabil
 The LightGBM model predicts charging station availability using historical station usage and time based features.
 
 | Metric | Result |
-| --- | ---: |
+| ------ | ------ |
 | RMSE | 0.1564 |
 | MAE | 0.0754 |
 | R² | 0.841 |
 
-## Setup
+## Project Availability
 
-1. Install the iOS dependencies:
-
-```bash
-pod install
-```
-
-2. Open `EVChargingReservation.xcworkspace` in Xcode.
-
-3. Add your own Firebase `GoogleService-Info.plist`.
-
-4. Copy `Secrets.example.plist` as `Secrets.plist` and provide:
-   - `GoogleMapsPlatformAPIKey`
-   - `MLBackendHost`
-
-5. Start the prediction backend:
-
-```bash
-cd backend
-pip install -r requirements.txt
-python server.py
-```
-
-> Firebase and API configuration files containing credentials are intentionally excluded from this repository.
+This repository contains the source code of the project. The original Firebase database, API credentials, and service configuration files are not included. Therefore, the application cannot be run directly with the original project environment.
 
 ## Limitations
 
@@ -79,8 +60,8 @@ The prediction model was trained using historical charging station data, and the
 
 ## Project Report
 
-For more details about the dataset, machine learning model, system design, implementation, and evaluation, see the **[Project Report](./projectReport.pdf)**.
+For more details about the dataset, machine learning model, system design, implementation, and evaluation, see the [**Project Report**](./projectReport.pdf).
 
 ## Author
 
-**Asude Beyza Demirboga** 
+**Asude Beyza Demirboga**
